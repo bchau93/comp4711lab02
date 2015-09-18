@@ -21,7 +21,7 @@ class Gallery extends Application {
 	public function index()
 	{
 		//$this->load->view('gallery');
-            $this->data['pagebody'] = 'welcome';
+            $this->data['pagebody'] = 'gallery';
             $this->render();
 	}
 }
